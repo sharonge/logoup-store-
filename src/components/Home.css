@@ -1,0 +1,2336 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1763px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    margin: 0 0 0 0;
+    padding: 16px 36px 16px 36px;
+    background: #2c2b2b;
+    z-index: 161;
+  }
+  .logo {
+    flex-shrink: 0;
+    position: relative;
+    width: 118.696px;
+    height: 42px;
+    z-index: 162;
+  }
+  .logo-1 {
+    position: absolute;
+    width: 35.53%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 164;
+  }
+  .gruppe {
+    position: relative;
+    width: 16.715px;
+    height: 17.94px;
+    margin: 12.679px 0 0 11.252px;
+    z-index: 166;
+  }
+  .ausschluss {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../assets/images/30fd7190-5e76-4ad1-a274-70d0ba2054f2.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 167;
+  }
+  .rechteck {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    background: url(../assets/images/159602bc-c214-4027-bb71-4ff17d951f09.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 165;
+  }
+  .logoup {
+    position: absolute;
+    width: 57.87%;
+    height: 43.9%;
+    top: 27.43%;
+    left: 42.13%;
+    background: url(../assets/images/fceee50f-deed-491f-8cf7-39cfaa4ed0e9.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 163;
+  }
+  .fi-rr-shopping-cart {
+    flex-shrink: 0;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    z-index: 168;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 31.215px;
+    height: 25.333px;
+    margin: 0 0 0 0;
+    background: url(../assets/images/cfba1be6-ee26-472d-8bed-e23d9ec031d8.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 169;
+  }
+  .flex-row-adb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 18.666px;
+    height: 5.333px;
+    margin: 1.334px 0 0 6.667px;
+    z-index: 171;
+  }
+  .vector-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 5.333px;
+    height: 5.333px;
+    background: url(../assets/images/3eba4a6b-c939-4b94-b522-7322b5eb4012.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 170;
+  }
+  .vector-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 5.333px;
+    height: 5.333px;
+    background: url(../assets/images/e4c0b9ad-45f6-4cdb-b6c1-85628547e60e.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 171;
+  }
+  .group {
+    flex-shrink: 0;
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    top: 15px;
+    left: 1392px;
+    z-index: 172;
+  }
+  .span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 5px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 174;
+  }
+  .ellipse {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 0;
+    background: url(../assets/images/4f0ccd1b-6d43-41e6-b0e7-b22082d9e7e6.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 173;
+    border-radius: 50%;
+  }
+  .explore-collections {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 331px;
+    height: 53px;
+    margin: 70px 0 0 35px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 32px;
+    position: absolute;
+    width: 1100px;
+    height: 1473.857px;
+    top: 247px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+  }
+  .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    min-width: 0;
+    z-index: 3;
+  }
+  .frame-5 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 1044px;
+    position: relative;
+    width: 136px;
+    z-index: 4;
+  }
+  .mens-tees {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 140px;
+    height: 38px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    z-index: 6;
+  }
+  .frame-7 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 1100px;
+    z-index: 7;
+  }
+  .frame-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 8;
+  }
+  .frame-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    min-width: 0;
+    z-index: 9;
+  }
+  .frame-a {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .vintage-removebg-preview {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.233px;
+    background: url(../assets/images/c6c4ca1046a3582ee3f3c2708cea05b9e1110d23.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .frame-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 162px;
+    z-index: 12;
+  }
+  .frame-c {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 156px;
+    z-index: 13;
+  }
+  .vintage-tee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 93px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .rectangle {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #576aa4;
+    z-index: 15;
+  }
+  .dollar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  .basic-slim-t-shirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 162px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 18;
+  }
+  .learn-more {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .frame-d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 20;
+  }
+  .frame-e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 21;
+  }
+  .frame-f {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 22;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .vintage-preview {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.233px;
+    background: url(../assets/images/681e8f12c343e5fba559a2d68a920c4199a96ffa.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 163px;
+    z-index: 24;
+  }
+  .frame-11 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 156px;
+    z-index: 25;
+  }
+  .vintage-tee-12 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 93px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 26;
+  }
+  .rectangle-13 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #141414;
+    z-index: 27;
+  }
+  .price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 28;
+  }
+  .black-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 163px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 29;
+  }
+  .frame-14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 30;
+  }
+  .add-to-cart {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 31;
+  }
+  .frame-15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 32;
+  }
+  .frame-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 33;
+  }
+  .frame-17 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 34;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .vintage-preview-18 {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.233px;
+    background: url(../assets/images/889158f802ff588f3a127f3c6694470feb3e0177.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 35;
+  }
+  .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 170px;
+    z-index: 36;
+  }
+  .frame-1a {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 156px;
+    z-index: 37;
+  }
+  .vintage-tee-1b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 93px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .rectangle-1c {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #c39d6c;
+    z-index: 39;
+  }
+  .price-1d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 40;
+  }
+  .brown-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 170px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 41;
+  }
+  .frame-1e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 42;
+  }
+  .add-to-cart-1f {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 43;
+  }
+  .frame-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 44;
+  }
+  .frame-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 45;
+  }
+  .frame-22 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 46;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .vintage-preview-23 {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.233px;
+    background: url(../assets/images/d9c10b6649b9ea0ee764b99848cfbcb122fc7be9.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 47;
+  }
+  .frame-24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 156px;
+    z-index: 48;
+  }
+  .frame-25 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 156px;
+    z-index: 49;
+  }
+  .vintage-tee-26 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 93px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 50;
+  }
+  .rectangle-27 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #30302e;
+    z-index: 51;
+  }
+  .price-28 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 52;
+  }
+  .grey-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 155px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 53;
+  }
+  .frame-29 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 54;
+  }
+  .add-to-cart-2a {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 55;
+  }
+  .frame-2b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    min-width: 0;
+    z-index: 56;
+  }
+  .casual-fits {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 38px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .frame-2c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    z-index: 58;
+  }
+  .frame-2d {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 1100px;
+    z-index: 59;
+  }
+  .frame-2e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 60;
+  }
+  .frame-2f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 61;
+  }
+  .frame-30 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 62;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .patchwork-tee {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.233px;
+    background: url(../assets/images/1af50aaa2eb8552ff559ba1292940b1d932be09d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 63;
+  }
+  .frame-31 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 222px;
+    z-index: 64;
+  }
+  .frame-32 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 177px;
+    z-index: 65;
+  }
+  .patchwork-tee-33 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 114px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .rectangle-34 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #2f2e2a;
+    z-index: 67;
+  }
+  .price-35 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 68;
+  }
+  .basic-patchwork-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 222px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 69;
+  }
+  .frame-36 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 70;
+  }
+  .learn-more-37 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 71;
+  }
+  .frame-38 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 72;
+  }
+  .frame-39 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 73;
+  }
+  .frame-3a {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 74;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .shopify {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.634px;
+    background: url(../assets/images/d661c15b024c966f35a07e418ed9cf45b87b428e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 75;
+  }
+  .frame-3b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 199px;
+    z-index: 76;
+  }
+  .frame-3c {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 157px;
+    z-index: 77;
+  }
+  .blackair-tee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 94px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 78;
+  }
+  .rectangle-3d {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #dcdfe8;
+    border: 1px solid #000000;
+    z-index: 79;
+  }
+  .price-3e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 80;
+  }
+  .basic-blackair-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 199px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 81;
+  }
+  .frame-3f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 82;
+  }
+  .learn-more-40 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 83;
+  }
+  .frame-41 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 84;
+  }
+  .frame-42 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 85;
+  }
+  .frame-43 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 86;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .yasalite {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 175.349px;
+    background: url(../assets/images/e2e8a8c9b3697c4eb83bd875696da93134ee213d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 87;
+  }
+  .frame-44 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 211px;
+    z-index: 88;
+  }
+  .frame-45 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 138px;
+    z-index: 89;
+  }
+  .eastern-v {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 75px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 90;
+  }
+  .rectangle-46 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #30302e;
+    z-index: 91;
+  }
+  .price-47 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 92;
+  }
+  .eastern-v-up {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 211px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 93;
+  }
+  .frame-48 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 94;
+  }
+  .learn-more-49 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 95;
+  }
+  .frame-4a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 96;
+  }
+  .frame-4b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 97;
+  }
+  .frame-4c {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 98;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .skinko-removebg-preview {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.634px;
+    background: url(../assets/images/2cf38c941bfa5939e2941f3949fa6807fdefdc4c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 99;
+  }
+  .frame-4d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 193px;
+    z-index: 100;
+  }
+  .frame-4e {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 167px;
+    z-index: 101;
+  }
+  .skinko-jacket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 104px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 102;
+  }
+  .rectangle-4f {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #e1d9cb;
+    border: 1px solid #000000;
+    z-index: 103;
+  }
+  .dollar-50 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 104;
+  }
+  .casual-skinko-jacket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 193px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 105;
+  }
+  .frame-51 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 106;
+  }
+  .learn-more-52 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 107;
+  }
+  .frame-53 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    min-width: 0;
+    z-index: 108;
+  }
+  .frame-54 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 1044px;
+    position: relative;
+    width: 115px;
+    z-index: 109;
+  }
+  .featured {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 115px;
+    height: 38px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 110;
+  }
+  .frame-55 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    z-index: 111;
+  }
+  .frame-56 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 1100px;
+    z-index: 112;
+  }
+  .frame-57 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 113;
+  }
+  .frame-58 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 290.643px;
+    z-index: 114;
+  }
+  .frame-59 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 290.643px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 115;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .aelfric-eden-contrast {
+    flex-shrink: 0;
+    position: relative;
+    width: 160.643px;
+    height: 173px;
+    background: url(../assets/images/b7dfbb8fde0a77ac213eaca7f6d48dec4df21c0e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 116;
+  }
+  .frame-5a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 187px;
+    z-index: 117;
+  }
+  .frame-5b {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 177px;
+    z-index: 118;
+  }
+  .basic-racing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 114px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 119;
+  }
+  .rectangle-5c {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #2f2e2a;
+    z-index: 120;
+  }
+  .dollar-5d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 121;
+  }
+  .basic-racing-t-shirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 187px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 122;
+  }
+  .frame-5e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 123;
+  }
+  .learn-more-5f {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 124;
+  }
+  .frame-60 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 125;
+  }
+  .frame-61 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 126;
+  }
+  .frame-62 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 127;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .aelfric-eden-vintage {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.274px;
+    background: url(../assets/images/7315f94ecb242cf55af33f82da54b79ad2cdad06.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 128;
+  }
+  .frame-63 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 199px;
+    z-index: 129;
+  }
+  .frame-64 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 176px;
+    z-index: 130;
+  }
+  .basic-washed {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 113px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 131;
+  }
+  .rectangle-65 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #836e54;
+    border: 1px solid #000000;
+    z-index: 132;
+  }
+  .price-66 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 133;
+  }
+  .basic-washed-tshirt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 199px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 134;
+  }
+  .add-to-cart-67 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 135;
+  }
+  .learn-more-68 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 136;
+  }
+  .frame-69 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 137;
+  }
+  .frame-6a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 260px;
+    z-index: 138;
+  }
+  .frame-6b {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 260px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 139;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .ma-down-puffer-jacket-black {
+    flex-shrink: 0;
+    position: relative;
+    width: 130px;
+    height: 173.274px;
+    background: url(../assets/images/00140c527b493d3de06783019ee6c9a7427f293d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 140;
+  }
+  .frame-6c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 166px;
+    z-index: 141;
+  }
+  .frame-6d {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 148px;
+    z-index: 142;
+  }
+  .ma1-puffer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 85px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 143;
+  }
+  .rectangle-6e {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #30302e;
+    z-index: 144;
+  }
+  .price-6f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 145;
+  }
+  .ma1-puffer-jacket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 166px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 146;
+  }
+  .add-to-cart-70 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 147;
+  }
+  .learn-more-71 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 148;
+  }
+  .frame-72 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 38px;
+    position: relative;
+    width: 260px;
+    z-index: 149;
+  }
+  .frame-73 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 245.333px;
+    z-index: 150;
+  }
+  .frame-74 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 245.333px;
+    padding: 43px 65px 43px 65px;
+    background: #f0f1f6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 151;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.04);
+  }
+  .gael-mens-jacket-black-buy-online-at-nn {
+    flex-shrink: 0;
+    position: relative;
+    width: 115.333px;
+    height: 173px;
+    background: url(../assets/images/999f9cef53f16e05c8620f78a5b4637a65f4df17.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 152;
+  }
+  .frame-75 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 178px;
+    z-index: 153;
+  }
+  .frame-76 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 168px;
+    z-index: 154;
+  }
+  .gauel-jacket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 105px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 155;
+  }
+  .rectangle-77 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #2d2e30;
+    border: 1px solid #000000;
+    z-index: 156;
+  }
+  .price-78 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 27px;
+    height: 21px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 157;
+  }
+  .gauel-stock-jacket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 178px;
+    height: 27px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 158;
+  }
+  .add-to-cart-79 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    z-index: 159;
+  }
+  .learn-more-7a {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 27px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 160;
+  }
+  .frame-7b {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 1044px;
+    position: absolute;
+    width: 136px;
+    height: 38px;
+    top: 784.233px;
+    left: 170px;
+    padding: 0;
+    z-index: 1;
+  }
+  
